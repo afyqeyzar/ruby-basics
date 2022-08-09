@@ -10,3 +10,5 @@ eg: <br /> caesar-cipher("This phrase is shifted by 5!", 5) <br /> => Ymnx umwfx
 eg: <br /> substrings("below", dictionary) <br /> => {"below"=>1, "low"=>1}
 
 ### stockpicker.rb: returns the best days to maximize profits given an array of prices
+
+### stockpicker.rb: sorts arrays by bubble sort
