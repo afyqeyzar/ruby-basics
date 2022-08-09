@@ -8,3 +8,5 @@ eg: <br /> caesar-cipher("This phrase is shifted by 5!", 5) <br /> => Ymnx umwfx
 
 ### substring.rb: return a hash of words that match in the dictionary
 eg: <br /> substrings("below", dictionary) <br /> => {"below"=>1, "low"=>1}
+
+### stockpicker.rb: returns the best days to maximize profits given an array of prices
