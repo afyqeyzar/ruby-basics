@@ -6,4 +6,5 @@ Projects from The Odin Project
 
 eg: <br /> caesar-cipher("This phrase is shifted by 5!", 5) <br /> => Ymnx umwfxj nx xmnkyji gd 5!
 
-
+### substring.rb: return a hash of words that match in the dictionary
+eg: <br /> substrings("below", dictionary) <br /> => {"below"=>1, "low"=>1}
