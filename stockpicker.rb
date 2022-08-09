@@ -7,12 +7,14 @@ def stock_picker(prices)
 
     prices.each_with_index do |price, index|
         if price < min_price
+            #p price
             min_price = price
             min_index = index
             
         end
 
         if price - min_price > profit
+            #p min_price
             profit = price - min_price
             days = [min_index,index]
         end
@@ -21,4 +23,4 @@ def stock_picker(prices)
 
 end    
 
-p stock_picker([18,19,17,3,6,9,15,8,6,1,10])
+p stock_picker([17,3,6,9,15,8,6,1,10])
