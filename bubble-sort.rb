@@ -15,4 +15,4 @@ def bubble_sort(numbers)
     numbers
 end    
 
-p bubble_sort([4,3,78,2,0,2])
+p bubble_sort([5,4,32,57,64,32,85,156,363,14,2])
